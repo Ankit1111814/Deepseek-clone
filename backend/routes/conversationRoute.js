@@ -1,6 +1,6 @@
 const express = require('express');
 const {sendMessage,getConverstion} = require('../controllers/conversationController');
-const authMiddleware = require('../middlerware/authMiddleware');
+const authMiddleware = require('../middleware/authMiddleware');
 
 
 

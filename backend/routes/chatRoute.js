@@ -1,6 +1,6 @@
 const express = require('express');
 const {getChats,getChat,createChat,deleteChat} = require('../controllers/chatController');
-const authMiddleware = require('../middlerware/authMiddleware');
+const authMiddleware = require('../middleware/authMiddleware');
 
 
 

@@ -1,6 +1,6 @@
 const express = require('express')
 const {register,login,getCurrentUser,googleCallback} = require('../controllers/authController');
-const authMiddleware = require('../middlerware/authMiddleware');
+const authMiddleware = require('../middleware/authMiddleware');
 const passport = require('passport');
 
 const router = express.Router();

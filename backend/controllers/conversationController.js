@@ -1,6 +1,6 @@
-const { generateStreamResponse } = require("../aiProvider/deepseek-ai");
-const Chat = require("../models/Chat");
-const Conversation = require("../models/Conversation");
+const { generateStreamResponse } = require("../aiProvider/Deepseek-ai");
+const Chat = require("../model/Chat");
+const Conversation = require("../model/Conversation");
 
 exports.sendMessage = async (req, res) => {
   try {
