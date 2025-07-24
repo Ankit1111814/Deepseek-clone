@@ -1,5 +1,5 @@
 import React from 'react'
-import Conversations from '@/app/chat/Conversations';
+import Conversations from '@/app/chat/conversations';
 
 export default  function Page ({params} : {params: {id:string}}) {
     const {id} =  params;
